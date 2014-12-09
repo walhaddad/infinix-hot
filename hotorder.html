@@ -1,0 +1,405 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Infinix HOT</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/waypoints.min.js"></script>
+<script type="text/javascript" src="js/waypoints-sticky.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/jquery.plugin.min.js"></script>
+<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+<script type="text/javascript">
+$(function () {
+	var counter = new Date();
+	counter.setDate(counter.getDate() + 1);
+	//counter.setSeconds(counter.getSeconds() + 5.5);
+	$('#counter').countdown({until: counter, compact: true, format: 'HMS', onExpiry: endOrder,
+    description: ''});
+});
+
+function endOrder() { 
+    $(".btn").addClass("disabled").removeAttr("href"); 
+} 
+
+</script>
+</head>
+
+<body>
+<!-- main-wrapper -->
+<div id="main-wrapper">
+	
+  <!-- top-wrapper -->
+  <div id="top-wrapper" class="clearfloat">
+  	<a href="index.html" class="logo">
+    	<img src="images/logo.png" alt="Infinix" />
+    </a>
+    
+    <!-- menu-wrapper -->
+    <div id="menu-wrapper">
+    	<ul id="main-menu">
+      	<li><a href="index.html">Infinix Hot</a></li>
+        <li class="active"><a href="hot-order.html">Hot Order</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+      
+      <div class="search-wrapper clearfloat">
+      	<form action="#" method="post">
+        	<input type="text" class="textbox" />
+          <input type="submit" value="" class="btn-search" />
+        </form>
+      </div>
+      
+    </div>
+    <!-- menu-wrapper end -->
+    
+  </div>
+  <!-- top-wrapper end -->
+  
+  
+	<!-- order-banner -->
+  <div class="order-banner">
+  	<img src="images/infinix-mobile-4.png" alt="Infinix HOT" class="phone" />
+    <div class="text-wrapper">
+    	<h2 id="counter">20:12:00</h2>
+      <p>Order the new Infinix Hot, time is running out</p>
+			<div class="btns-wrapper">
+      	<a href="notify.html">
+        	<img src="images/btn-notify.png" alt="Notify Me" />
+        </a>
+        <a href="#">
+        	<img src="images/btn-order.png" alt="Order Now" />
+        </a>
+        <ul class="social-wrapper">
+        	<li>
+          	<a href="#">
+            	<img src="images/facebook2.png" alt="Facebook" />
+            </a>
+          </li>
+          <li>
+          	<a href="#">
+            	<img src="images/twitter2.png" alt="Twitter" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- order-banner end --> 
+  
+  <!-- banner-sep -->
+  <div class="banner-sep">
+  	<h2>Design for you in mind: Infinix Hot</h2>
+  </div>
+  <!-- banner-sep end -->
+  
+  <!-- specifications-wrapper -->
+  <div class="specifications-wrapper">
+  	<h2>Specifications</h2>
+    <div class="cols-wrapper clearfloat">
+    	<div class="col-right">
+      	<img src="images/infinix-mobile-5.png" alt="Infinix Hot" />
+      </div>
+      <div class="col-left">
+      	<div class="clearfloat">
+        	<div class="table-left">
+            <table>
+              <tr>
+                <td class="heading" colspan="2">Platform</td>
+              </tr>
+              <tr>
+                <td>Bandwidth</td>
+                <td>
+                  GSM:850/900/1800/1900 MHz<br/>
+                  WCDMA: 900/2100 MHz
+                </td>
+              </tr>
+              <tr>
+                <td>Network</td>
+                <td>2G &amp; 3G</td>
+              </tr>
+              <tr>
+                <td>GPU</td>
+                <td>Mali 400</td>
+              </tr>
+              <tr>
+                <td>CPU Frequency</td>
+                <td>1.3 GHz Quad core</td>
+              </tr>
+              <tr>
+                <td class="heading" colspan="2">Data</td>
+              </tr>
+              <tr>
+                <td>GPRS</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>EDGE</td>
+                <td>Yes, Up and Down Link</td>
+              </tr>
+              <tr>
+                <td>3G</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td class="heading" colspan="2">Camera</td>
+              </tr>
+              <tr>
+                <td>Location</td>
+                <td>Front/Rear</td>
+              </tr>
+              <tr>
+                <td>Pixels</td>
+                <td>Front(2 MP)/Rear(5 MP)</td>
+              </tr>
+              <tr>
+                <td>AF / FF</td>
+                <td>2M FF/5M AF</td>
+              </tr>
+              <tr>
+                <td>Flash Light</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Video Recording</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Video Calling</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Image Size</td>
+                <td>
+                  Front Camera Max: 1200*1600<br/>
+                  Rear Camera Max: 2448*3264
+                </td>              
+              </tr>
+              <tr>
+                <td class="heading" colspan="2">Memory</td>
+              </tr>
+              <tr>
+                <td>ROM</td>
+                <td>16 GB</td>
+              </tr>
+              <tr>
+                <td>RAM</td>
+                <td>1 GB</td>
+              </tr>
+              <tr>
+                <td>External Memory</td>
+                <td>Up to 32 GB</td>
+              </tr>
+              <tr>
+                <td class="heading" colspan="2">Display</td>
+              </tr>
+              <tr>
+                <td>Size</td>
+                <td>5.0 inch</td>
+              </tr>
+              <tr>
+                <td>Type</td>
+                <td>IPS</td>
+              </tr>
+              <tr>
+                <td>Resolution</td>
+                <td>FWVGA 480*854</td>
+              </tr>
+              <tr>
+                <td class="heading" colspan="2">Touch Panel</td>
+              </tr>
+              <tr>
+                <td>Type</td>
+                <td>CTP</td>
+              </tr>
+              <tr>
+                <td class="heading" colspan="2">Multimedia</td>
+              </tr>
+              <tr>
+                <td>Audio Player</td>
+                <td>MP3/MIDI/AMR/WAV</td>
+              </tr>
+              <tr>
+                <td>Ringtone Format</td>
+                <td>MIDI/MP3</td>
+              </tr>
+              <tr>
+                <td>Video Player</td>
+                <td>3GP/MP4/AVI</td>
+              </tr>
+              <tr>
+                <td>Picture Format</td>
+                <td>PNG/JPEG/BMP</td>
+              </tr>
+            </table>
+          </div>
+          <div class="table-right">
+            <table>
+              <tr>
+                <td class="heading" colspan="2">Entertainment</td>
+              </tr>
+              <tr>
+                <td>FM Radio</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Voice Recording</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>E-Book Reader</td>
+                <td>Customization</td>
+              </tr>
+              <tr>
+                <td>Game</td>
+                <td>Customization</td>
+              </tr>
+              <tr>
+                <td class="heading" colspan="2">Message</td>
+              </tr>
+              <tr>
+                <td>Email</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>MMS</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td class="heading" colspan="2">Battery</td>
+              </tr>
+              <tr>
+                <td>Capacity</td>
+                <td>2000 mAh</td>
+              </tr>
+              <tr>
+                <td>Talk Time</td>
+                <td>2G 8.3 H/3G 7.5 H</td>
+              </tr>
+              <tr>
+                <td>Standby Time</td>
+                <td>333 H</td>
+              </tr>
+              <tr>
+                <td class="heading" colspan="2">Connection</td>
+              </tr>
+              <tr>
+                <td>Sim Card Slot</td>
+                <td>Dual SIM</td>
+              </tr>
+              <tr>
+                <td>GPS Navigation</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>WiFi(WLAN)</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Bluetooth</td>
+                <td>Yes, V4.0</td>
+              </tr>
+              <tr>
+                <td>USB Port</td>
+                <td>Yes, Micro USB 5 pin</td>
+              </tr>
+              <tr>
+                <td>Earphone</td>
+                <td>Yes, 3.5 jack</td>
+              </tr>
+              <tr>
+              	<td class="spacer"></td>
+              </tr>
+              <tr>
+                <td class="heading" colspan="2">Sensors &amp; Tools</td>
+              </tr>
+              <tr>
+                <td>
+                  G-sensor<br/>
+                  Light sensor<br/>
+                  Proximity sensor
+                </td>
+                <td>
+                  Yes<br/>
+                  Yes<br/>
+                  Yes
+                </td>
+              </tr>
+              <tr>
+              	<td class="spacer"></td>
+              </tr>
+              <tr>
+              	<td class="heading_sm">Model</td>
+                <td>X507 HOT</td>
+              </tr>
+              <tr>
+              	<td class="heading_sm">Dimension</td>
+                <td>142.4*73.2*10.1 mm</td>
+              </tr>
+              <tr>
+              	<td class="heading_sm">Color</td>
+                <td>Black, White, Red, Blue, Golden</td>
+              </tr>
+              <tr>
+              	<td class="heading_sm">Weight</td>
+                <td>160 g</td>
+              </tr>
+              <tr>
+              	<td class="heading_sm">Operating System</td>
+                <td>Android 4.4.2 (KitKat)</td>
+              </tr>              
+            </table>
+            <div class="tech-wrapper">
+            	<img src="images/tech.png" alt="tech"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- specifications-wrapper end -->
+  
+  <!-- footer -->
+  <div id="footer" class="clearfloat">
+  	<ul class="social">
+    	<li>
+      	<a href="#">
+        	<img src="images/facebook.png" alt="Facebook" />
+        </a>
+      </li>
+      <li>
+      	<a href="#">
+        	<img src="images/twitter.png" alt="Twitter" />
+        </a>
+      </li>
+      <li>
+      	<a href="#">
+        	<img src="images/google-plus.png" alt="Google Plus" />
+        </a>
+      </li>
+    </ul>
+    <div class="copyright">&copy; 2014 infinix HOT - all rights reserved.</div>
+  </div>
+  <!-- footer end -->
+  
+</div>
+<!-- main-wrapper end -->
+
+
+<!-- preloader -->
+<div class="preloader">
+	
+  <div class="spinner">
+  	<span class="logo"><img src="images/logo.png" alt="Logo" /></span>
+    <div class="bounce1"></div>
+    <div class="bounce2"></div>
+    <div class="bounce3"></div>
+  </div>
+</div>
+<!-- preloader end -->
+</body>
+</html>
