@@ -208,7 +208,7 @@ body{font-family:'NeoSans-Light', Arial, sans-serif;font-size:17px;color:#fff;ba
 	border-radius:4px;
 }
 .search-wrapper .textbox{background-color:#ccc;font-family:Arial, sans-serif;font-size:16px;font-style:italic;
-	color:#fff;line-height:26px;padding:0px 5px 0px 10px;display:block;float:left;width:120px;border:0 none;margin:7px 0 0 7px;}
+	color:#fff;line-height:26px;padding:0px 5px 0px 10px;display: block;float:left;width:120px;border:0 none;margin:7px 0 0 7px;}
 .search-wrapper .btn-search{display:block;width:30px;height:30px;border:0 none;float:left;padding:0;margin:0;cursor:pointer;
 	background-image:url(../images/search.png);background-position:center 12px;background-repeat:no-repeat;background-color:transparent;
 }
@@ -414,7 +414,67 @@ form .fieldset .field textarea:focus{border-color:#616161;}
 
 #footer .copyright{font-size:18px;font-family:'NeoSans-Light', Arial, sans-serif;text-align:right;font-weight:bold;color:#848484;
 	text-transform:uppercase;margin-top:14px;float:right;}
+/* mobile menu by richard.omollo@squaddigital.com 0726454315*/
+.popmenu-prompt, .close-popmenu-prompt {
+	float: right;
+	margin-right: 22px;
+	display:none;
+}
+.menu-overlay {
+	background:url('../images/overlay.png') repeat;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
 
+.menu-content #menu-wrapper{
+	display: block;
+}
+
+.menu-content #main-menu {
+	float: left;
+	width: 100%;
+	padding-top: 20px;
+}
+
+.menu-content .search-wrapper{
+	float: left;
+	width: 100%;
+}
+
+.menu-content .search-wrapper form {
+	float: left;
+	display: inline-block;
+	width: 100%;
+	/* background: red; */
+}
+
+.menu-content .search-wrapper .textbox {
+	width: 86%;
+}
+.menu-content #main-menu > li {
+	width: 100%;
+	text-align: center;
+}
+
+.menu-content #main-menu > li a {
+	font-size: 38px;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.menu-content {
+	width: 89%;
+	margin: 0 auto;
+	display: table;
+	padding-top: 126px;
+}
+
+
+/* mobile menu by richard.omollo@squaddigital.com 0726454315*/
 /*Media queries - mobile starts here */
 @media only screen and (max-width: 1500px){
 
@@ -770,6 +830,10 @@ form .fieldset .field textarea:focus{border-color:#616161;}
 
 	.colours-banner .text-wrapper, .space-banner .text-wrapper, .processor-banner .text-wrapper, .music-banner .text-wrapper {
 		top: 10%;
+	}
+
+	.popmenu-prompt {
+		display: block;
 	}
 
 	.home-banner .text-wrapper {
