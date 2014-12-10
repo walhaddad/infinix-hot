@@ -901,6 +901,47 @@ form .fieldset .field textarea:focus{border-color:#616161;}
 		float: left;
 		width: 100%;
 	}
+
+	.gallery li {
+		width: 48%;
+	}
+
+	.gallery li a {
+		min-height: 0px;
+	}
+
+	.gallery {
+		text-align: center;
+	}
+
+	.banner-sep h2 {
+		font-size: 20px;
+	}
+	.banner-sep {
+		height: 85px;
+	}
+
+	.home-banner img {
+	   width: 161%;
+	   margin-left: -122px;
+	}
+
+	.home-banner, .space-banner, .colours-banner, .processor-banner {
+		overflow: hidden;
+	}
+
+	.space-banner img, .colours-banner img, .processor-banner img{
+		width: 126%;
+		margin-left: 0;
+	}
+	div.btns-wrapper a img{
+		max-width: 150px;
+		margin-right: 0;
+	}
+
+	.order-banner .btns-wrapper a {
+		width: 155px;
+	}
 }
 
 @media only screen and (max-width: 320px){
